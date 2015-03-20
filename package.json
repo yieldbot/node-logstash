@@ -1,7 +1,7 @@
 {
-  "name": "node-logstash",
+  "name": "yb-node-logstash",
   "description": "Logstash implementation in node JS",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "Bertrand Paquet <bertrand.paquet@gmail.com>",
   "keywords": ["logstash", "log", "zmq", "zeromq"],
   "main": "./lib/log4node.js",
@@ -9,6 +9,9 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/bpaquet/node-logstash.git"
+  },
+  "publishConfig": {
+    "registry": "https://artifactory.yb0t.cc/artifactory/api/npm/yieldbot-npm"
   },
   "licenses": [
     {
