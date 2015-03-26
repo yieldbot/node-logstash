@@ -1,9 +1,14 @@
 {
   "name": "yb-node-logstash",
   "description": "Logstash implementation in node JS",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": "Bertrand Paquet <bertrand.paquet@gmail.com>",
-  "keywords": ["logstash", "log", "zmq", "zeromq"],
+  "keywords": [
+    "logstash",
+    "log",
+    "zmq",
+    "zeromq"
+  ],
   "main": "./lib/log4node.js",
   "homepage": "https://github.com/bpaquet/node-logstash",
   "repository": {
@@ -34,7 +39,7 @@
     "log4node": "0.1.6",
     "optimist": "0.6.1"
   },
-  "optionalDependencies":{
+  "optionalDependencies": {
     "aws-lib": "0.0.6",
     "amqplib": "0.3.x",
     "zmq": "2.10.x",
